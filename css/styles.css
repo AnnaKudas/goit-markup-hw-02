@@ -299,12 +299,9 @@ body {
 .btn-list {
   list-style: none;
 }
-.btn-item {
-}
 .section {
 }
-
-.btn-item {
+.buttons {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -318,15 +315,18 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.btn-item:hover {
+
+.btn-item {
+}
+.buttons:hover {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
-.btn-item:active {
+.buttons:active {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
-.btn-item:focus {
+.buttons:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
