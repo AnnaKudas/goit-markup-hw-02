@@ -62,6 +62,9 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
 }
+.header-logo:focus {
+color: var(--color-ocean);
+}
 .logo-web {
   color: var(--color-navy-blue);
 }
@@ -106,6 +109,12 @@ body {
   color: var(--color-slate);
 }
 .header-contact-item:active {
+  color: var(--color-ocean);
+}
+.header-contact-item:hover {
+  color: var(--color-ocean);
+}
+.header-contact-item:focus {
   color: var(--color-ocean);
 }
 
@@ -305,6 +314,10 @@ body {
   cursor: pointer;
 }
 .buttons:hover {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.buttons:active {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
