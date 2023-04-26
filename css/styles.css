@@ -301,7 +301,10 @@ body {
 }
 .btn-item {
 }
-.buttons {
+.section {
+}
+
+.btn-item {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -315,15 +318,15 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.buttons:hover {
+.btn-item:hover {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
-.buttons:active {
+.btn-item:active {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
-.buttons:focus {
+.btn-item:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
