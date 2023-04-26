@@ -291,8 +291,7 @@ color: var(--color-ocean);
   |============================
 */
 /*Buttons*/
-.btn-section {
-}
+
 .btn-title {
 }
 .btn-list {
@@ -318,6 +317,10 @@ color: var(--color-ocean);
   color: var(--color-white);
 }
 .buttons:active {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.buttons:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
 }
