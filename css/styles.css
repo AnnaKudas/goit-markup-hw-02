@@ -83,21 +83,16 @@ color: var(--color-ocean);
   text-decoration-line: underline;
   color: var(--color-ocean);
 }
-.header-nav-item:hover {
+.header-nav-item:hover, .header-nav-item:focus, {
   color: var(--color-ocean);
 }
-.header-nav-item:focus {
+.header-nav-link:hover, .header-nav-link:focus {
   color: var(--color-ocean);
-}
-.header-nav-link {
 }
 .contact {
   font-style: normal;
 }
-.contact:hover {
-  color: var(--color-ocean);
-}
-.contact:focus {
+.contact:hover, .contact:focus {
   color: var(--color-ocean);
 }
 .header-contact {
