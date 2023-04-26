@@ -351,4 +351,6 @@ body {
   color: var(--color-navy-blue);
 }
 .cards-txt {
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
