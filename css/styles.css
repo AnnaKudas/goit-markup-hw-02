@@ -297,6 +297,7 @@ body {
 .btn-title {
 }
 .btn-list {
+  list-style: none;
 }
 .btn-item {
 }
@@ -330,8 +331,14 @@ body {
 .cards {
 }
 .cards-list {
+  list-style: none;
 }
+.card-section-link {
+  text-decoration: none;
+}
+
 .cards-item {
+  text-decoration: none;
 }
 .cards-img {
 }
