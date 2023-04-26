@@ -63,7 +63,7 @@ body {
   color: var(--color-iris);
 }
 .header-logo:focus {
-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 .logo-web {
   color: var(--color-navy-blue);
@@ -83,19 +83,23 @@ color: var(--color-ocean);
   text-decoration-line: underline;
   color: var(--color-ocean);
 }
-.header-item1:hover, .header-item1:focus{
+.header-item1:hover,
+.header-item1:focus {
   color: var(--color-ocean);
 }
-.header-nav-item:hover, .header-nav-item:focus, {
+.header-nav-item:hover,
+.header-nav-item:focus {
   color: var(--color-ocean);
 }
-.header-nav-link:hover, .header-nav-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--color-ocean);
 }
 .contact {
   font-style: normal;
 }
-.contact:hover, .contact:focus {
+.contact:hover,
+.contact:focus {
   color: var(--color-ocean);
 }
 .header-contact {
@@ -262,15 +266,15 @@ color: var(--color-ocean);
   background-color: var(--color-navy-blue);
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif
-  font-weight: 800;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  font-weight: 800;
 }
-.footer-logo-studio{
+.footer-logo-studio {
   color: var(--color-cloud);
 }
 .footer-copyright {
