@@ -71,17 +71,11 @@ body {
 
 .header-nav-list {
   /* Body Medium */
-
-  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-}
-.header-nav-item:active {
-  text-decoration-line: underline;
-  color: var(--color-ocean);
 }
 .header-item1:hover,
 .header-item1:focus {
@@ -103,15 +97,11 @@ body {
   color: var(--color-ocean);
 }
 .header-contact {
-  font-family: var(--primary-font);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-}
-.header-contact-item:active {
-  color: var(--color-ocean);
 }
 .header-contact-item:hover {
   color: var(--color-ocean);
@@ -129,7 +119,6 @@ body {
   background-color: var(--color-navy-blue);
 }
 .hero-title {
-  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -188,7 +177,6 @@ body {
 .about-item {
 }
 .about-item-ttl {
-  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -206,7 +194,6 @@ body {
 .portfolio {
 }
 .portfolio-title {
-  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -230,7 +217,6 @@ body {
   background: var(--color-cloud);
 }
 .team-title {
-  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -247,7 +233,6 @@ body {
 .team-img {
 }
 .team-subtitle {
-  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -278,10 +263,6 @@ body {
   color: var(--color-cloud);
 }
 .footer-copyright {
-  font-family: var(--primary-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   width: 264px;
@@ -302,7 +283,6 @@ body {
 .section {
 }
 .buttons {
-  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -346,7 +326,6 @@ body {
 .cards-img {
 }
 .cards-header {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
