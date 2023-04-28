@@ -32,26 +32,49 @@ body {
 
 /**
   |============================
-  | Base styles
+  | reset start
   |============================
 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .section {
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   color: inherit;
   text-decoration: none;
 }
+
 /**
   |============================
   | Header styles
   |============================
 */
 .header {
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .header-nav {
+  margin-right: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -61,6 +84,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 }
 .header-logo:focus {
   color: var(--color-ocean);
@@ -76,6 +100,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-item1:hover,
 .header-item1:focus {
@@ -85,12 +112,17 @@ body {
 .header-nav-item:focus {
   color: var(--color-ocean);
 }
+.header-nav-link {
+  display: block;
+  padding: 24px;
+}
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--color-ocean);
 }
 .contact {
   font-style: normal;
+  padding: 24px;
 }
 .contact:hover,
 .contact:focus {
@@ -102,6 +134,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  display: flex;
+  gap: 40px;
 }
 .header-contact-item:hover {
   color: var(--color-ocean);
@@ -125,6 +159,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  margin-top: 0;
+  margin-bottom: 48px;
 }
 .btn {
   font-weight: 500;
@@ -140,6 +176,12 @@ body {
   cursor: pointer;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
+  min-width: 169px;
+  min-height: 56px;
+  align-items: center;
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn:hover {
@@ -173,6 +215,8 @@ body {
 .about-title {
 }
 .about-list {
+  display: flex;
+  gap: 24px;
 }
 .about-item {
 }
@@ -184,6 +228,10 @@ body {
   color: var(--color-navy-blue);
 }
 .about-item-txt {
+}
+.about-content {
+  display: block;
+  width: 264px;
 }
 
 /**
@@ -201,8 +249,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  gap: 24px;
 }
 .portfolio-item {
 }
@@ -226,6 +278,8 @@ body {
   color: var(--color-navy-blue);
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: var(--color-white);
@@ -240,6 +294,10 @@ body {
   color: var(--color-navy-blue);
 }
 .team-position {
+}
+.team-card-content {
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 /**
@@ -273,14 +331,21 @@ body {
   | Portfoliio Page
   |============================
 */
-/*Buttons*/
 
+/*Buttons*/
+.portfolio-section {
+  padding: 96px;
+}
 .btn-title {
 }
 .btn-list {
   list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 24px;
 }
 .section {
+  padding: 120px 0;
 }
 .buttons {
   font-weight: 500;
@@ -295,8 +360,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.container-btn {
+}
 .btn-item {
+}
+.buttons {
+  padding: 12px 24px;
 }
 .buttons:hover {
   background-color: var(--color-ocean);
@@ -315,16 +384,27 @@ body {
 }
 .cards-list {
   list-style: none;
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  margin: 72px 0 0 0;
+  padding-left: 0;
 }
 .card-section-link {
   text-decoration: none;
+  display: contents;
 }
 
 .cards-item {
   text-decoration: none;
+  width: calc((100% - 48px) / 3);
+  display: flex;
+  flex-direction: column;
 }
 .cards-img {
 }
+
 .cards-header {
   font-weight: 500;
   font-size: 20px;
@@ -332,7 +412,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+
 .cards-txt {
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+.content {
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+  border-top: none;
+  flex-grow: 1;
 }
