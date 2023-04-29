@@ -16,6 +16,8 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
   /*others*/
+  --indent: 24px;
+  --items: 4;
 }
 
 /*OTHER*/
@@ -151,6 +153,8 @@ p {
 */
 .hero {
   background-color: var(--color-navy-blue);
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .hero-title {
   font-weight: 700;
@@ -276,13 +280,17 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: var(--indent);
 }
 .team-item {
   background-color: var(--color-white);
+  flex-basis: calc(100% - var(--indent) * var(--items) -1);
 }
 .team-img {
 }
@@ -298,6 +306,7 @@ p {
 .team-card-content {
   padding-bottom: 32px;
   padding-top: 32px;
+  padding-left: 65px;
 }
 
 /**
